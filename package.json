@@ -12,7 +12,11 @@
     "react-dev": "webpack -d --watch",
     "build": "webpack -d"
   },
-  "dependencies": {},
+  "dependencies": {
+    "newrelic": "^5.10.0",
+    "redis": "^2.8.0",
+    "request": "^2.88.0"
+  },
   "devDependencies": {
     "cors": "^2.8.5",
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
